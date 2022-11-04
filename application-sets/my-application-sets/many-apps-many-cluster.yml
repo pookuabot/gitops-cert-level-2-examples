@@ -5,8 +5,8 @@ metadata:
 spec:
   generators:
     # matrix 'parent' generator
-    # - matrix:
-    - default:
+    - matrix:
+    # - default:
         generators:
           # git generator, 'child' #1
           - git:
